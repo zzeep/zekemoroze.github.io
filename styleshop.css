@@ -102,6 +102,25 @@ input, select {
   background-color: black;
 }
 
+.item>p{
+    font-size: 3vh;
+}
+
+.hoodie_img {
+  margin-top: 3vh;
+  width: 40%;
+}
+
+.shirt_img {
+  margin-top: 3vh;
+  width: 40%;
+}
+
+.model_img {
+  margin-top: 3vh;
+  width: 26%;
+}
+
 .logo_image {
   margin-top: 3vh;
   margin-left: auto;
@@ -109,96 +128,36 @@ input, select {
   position: relative;
   text-align: center;
   width: 100%;
+/*  margin-top: 1vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+  width: 50%; */
 }
 
 .LOGO{
   width: 40vh;
 }
 
-.season > a {
-  text-decoration: none;
-  color: #9E9E9E;
-}
-
-.season {
+.item {
   position: relative;
   font-size: 4vh;
   text-align: center;
   top: 25vh;
   font-family: "Courier New", monospace;
-}
-
-.support {
-  position: relative;
-  font-size: 3vh;
-  text-align: center;
-  top: 35vh;
-  font-family: "Courier New", monospace;
-}
-
-.look {
-  position: relative;
-  font-size: 3vh;
-  text-align: center;
-  top: 38vh;
-  font-family: "Courier New", monospace;
-}
-
-.mission {
-  position: relative;
-  font-size: 3vh;
-  text-align: center;
-  top: 41vh;
-  font-family: "Courier New", monospace;
-}
-
-.mission>a {
-  text-decoration: none;
-  color: #9E9E9E;
-}
-
-.content {
-  position: relative;
-  font-size: 3vh;
-  text-align: center;
-  top: 35vh;
-  font-family: "Courier New", monospace;
-}
-
-.look>a {
-  text-decoration: none;
-  color: #9E9E9E;
-}
-
-.lookbook_image {
-  position: relative;
-  font-size: 4vh;
-  text-align: center;
-  top: 15vh;
-  font-family: "Courier New", monospace;
-  margin-bottom: 10%;
-}
-
-
-.lookbook_image > img {
-  margin-top: 3vh;
-  width: 40%;
-}
-
-.support > a {
-  text-decoration: none;
-  color: #9E9E9E;
-}
-
-.season>h2{
-  color: #9E9E9E;
-  position: relative;
-  top: 1.5vh;
-  font-size: 3vh * 1vw;
+  margin-bottom: 15%;
 }
 
 #bottom {
   margin-bottom: 50vh;
+}
+
+.item >h2{
+  color: #9E9E9E;
+  position: relative;
+  top: 1.5vh;
+  font-size: 3vh * 1vw;
 }
 
 .footer{
@@ -208,6 +167,28 @@ input, select {
   width: 100%;
   bottom: 0;
 
+}
+
+.item > button{
+  display: block;
+  margin: auto;
+  margin-top: 2vh;
+  font-size: 2vh * 1vw;
+  font-family: "Courier New", monospace;
+  height: 6vh;
+  color: white;
+  width: 30vw;
+  border: none;
+  background-color: #3399ff;
+  transition-duration: 0.6s;
+}
+
+.item > button:hover{
+  font-family: "Courier New", monospace;
+  font-size: 1.75vh * 1vw;
+  color: black;
+  border: none;
+  background-color: #33cc33;
 }
 
 .footer > h3 {
